@@ -1,0 +1,56 @@
+[package]
+name = "polymarket-kalshi-arbitrage-bot"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# Async runtime
+tokio = { version = "1.35", features = ["full"] }
+
+# HTTP client
+reqwest = { version = "0.11", features = ["json", "rustls-tls"] }
+
+# Blockchain/Web3 (for Polymarket)
+web3 = "0.19"
+ethers = { version = "2.0", features = ["full"] }
+
+# Serialization
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+
+# Date/time handling
+chrono = { version = "0.4", features = ["serde"] }
+
+# Environment variables
+dotenv = "0.15"
+
+# Logging
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+
+# Error handling
+anyhow = "1.0"
+thiserror = "1.0"
+
+# Text similarity (for event matching)
+strsim = "0.11"
+
+# Regex
+regex = "1.10"
+
+# Async utilities
+futures = "0.3"
+
+# Configuration
+config = "0.14"
+
+# UUID generation (for position IDs)
+uuid = { version = "1.6", features = ["v4", "serde"] }
+
+# Base64 encoding (for Kalshi authentication)
+base64 = "0.21"
+
+# RSA signing (for Kalshi authentication)
+rsa = "0.9"
+sha2 = "0.10"  # For RSA-PSS hashing
+
