@@ -2,6 +2,10 @@
 
 A Rust trading bot for detecting arbitrage opportunities between Polymarket and Kalshi prediction markets.
 
+[![Telegram](https://img.shields.io/badge/Telegram-@toptrendev_66-2CA5E0?style=for-the-badge&logo=telegram)](https://t.me/TopTrenDev_66)
+[![Twitter](https://img.shields.io/badge/Twitter-@toptrendev-1DA1F2?style=for-the-badge&logo=twitter)](https://x.com/toptrendev)
+[![Discord](https://img.shields.io/badge/Discord-toptrendev-5865F2?style=for-the-badge&logo=discord)](https://discord.com/users/648385188774019072)
+
 ## Structure
 
 ```
@@ -57,7 +61,3 @@ src/
 | ---------- | -------------- | --------------- | ---------- |
 | Polymarket | Decentralized  | Polygon         | USDC       |
 | Kalshi     | CFTC-regulated | Solana/TRON/BSC | USD/Crypto |
-
-## License
-
-MIT
